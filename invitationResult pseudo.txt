@@ -1,0 +1,21 @@
+
+
+for each slot in activities
+	if there is an activity in that slot
+		for each interest slot
+			if there is an interest in that slot
+				put the interest into the interest array
+
+for each potential invitee in hudList
+	likeCounter = 0
+	if there is an invitee in that slot
+		for each of their interest slots
+			if there is an interest in that slot
+				if interest array contains that interest
+					"invitee likes that interest"
+					likeCounter++
+		player's relationship level with that invitee goes to #likeCounter
+		(iterate through each relCard, comparing its color to the name
+		of the current Hud - if so, increase the level)
+		"invitee" "intro" "color" (invitee is now your whatever)
+					

@@ -1,0 +1,7 @@
+receives: player's hud (p), target's RelCard (target)
+
+Purpose: exchange one of your activity cards with one of your relation's.
+
+
+
+new temporary variable: tempCard

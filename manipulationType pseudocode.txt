@@ -1,0 +1,35 @@
+receiving: player hud, target relCard, target hud
+		p	targR		targH
+
+new String array: manipulationOptions[FriendZone.MANIPULATIONS] = "Activity Swap", "Snoop", "Cold Shoulder", "Interest Swap"
+
+print targR.name
+print targR.level
+
+if targR's level is 0 or HATE_VALUE
+	print "error! relation may not be manipulated
+	call manipulationTarget
+
+if targR is an Acquaintaince
+	print manipulationOptions[0]
+	scan for input
+	if input is valid
+		call that manipulation's function
+
+if targR is a Friend
+	print manipulationOptions[0, 1]
+	scan for input
+	if input is valid
+		call that manipulation's function
+
+if targR is an Admirer
+	print manipulationOptions[0, 1, 2, 3]
+	scan for input
+	if input is valid
+		call that manipulation's function
+
+if targR is in Love
+	print manipulationOptions[0, 1, 2, 3]
+	scan for input
+	if input is valid
+		call that manipulation's function

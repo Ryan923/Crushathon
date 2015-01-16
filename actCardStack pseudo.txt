@@ -1,0 +1,6 @@
+r <-- random#
+if deck[r] != null
+	push <-- deck[r]
+	deck[r]<-- null
+	else
+		recursive call

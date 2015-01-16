@@ -1,0 +1,33 @@
+fullCounter = 0
+boolean done = false
+if fullCounter is full
+	done = true
+rel_invites
+hud_invites
+scanner
+input
+
+while done is false {
+
+if rel_invites is empty
+	Print: who'd you like to invite?
+else
+	Print: Anyone else?
+	Print: 0 - nope, that's all
+
+Print: whoever hasn't been invited yet
+
+Scan for input (pause)
+
+Trigger: input
+
+Check: is a player of that number displayed?
+	Yes: put her in the rel_invites
+	Yes: put her in the hud_invites
+	Yes: fullCounter++
+
+}
+
+pass rel_invites & hud_invites
+
+

@@ -1,0 +1,4 @@
+Passed objects: the player, her target 
+
+Print target's interests
+Lower target's affection level
